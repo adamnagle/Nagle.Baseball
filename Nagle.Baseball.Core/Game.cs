@@ -36,7 +36,7 @@ namespace Nagle.Baseball
                     NextInning();
                 }
 
-                var runs = rnd.Next(0, 9);
+                var runs = rnd.Next(0, 5);
 
                 if(CurrentInning.TeamAtBat == TeamType.HomeTeam)
                 {
